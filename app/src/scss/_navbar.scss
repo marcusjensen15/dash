@@ -1,0 +1,216 @@
+$breakpoint-standardMobile: 1100px;
+
+
+//spacing when turning the phone landscape mode is a bit messed up (with the spacer and the Aflac picture)
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navbar {
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
+    height: 50px;
+
+    &-theorem {
+        height: 50px;
+        width: 15vw;
+        float: left;
+
+        img {
+            height: 100%;
+            display: block;
+            margin: 0px auto;
+        }
+    }
+
+    &-spacer {
+        float: left;
+        color: #333;
+        font-size: 45px;
+        height: 50px;
+    }
+
+    &-aflac {
+        height: 50px;
+        width: 15vw;
+        float: left;
+
+        img {
+            height: 70%;
+            display: block;
+            margin: 8px auto;
+        }
+    }
+
+    &-sign-out {
+        background: #00A5E6;
+        color: #fff;
+        padding: 18px;
+        float: right;
+        font-family: sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        height: 100%;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+}
+
+// normal sized mobile devices
+
+@media (max-width: $breakpoint-standardMobile) and (orientation : portrait) {
+
+  .sidenav-wrap-theorem{
+    float: left;
+  }
+
+  .navbar {
+      color: #fff;
+      width: 100%;
+      overflow: hidden;
+      height: 50px;
+
+      &-theorem {
+          float: left;
+          width: 40%;
+          max-width: 150px;
+          float: left;
+
+
+
+          img {
+              height: 90%;
+              width: 100%;
+              display: block;
+              margin: 0px auto;
+              float: left;
+              max-width: 150px;
+
+          }
+      }
+
+      &-spacer {
+          float: left;
+          color: #333;
+          width: 0.5%;
+          max-width: 5px;
+          margin-left: 0%;
+          margin-right: 12px;
+          font-size: 37px;
+
+      }
+
+      &-aflac {
+          width: 22%;
+          max-width: 80px;
+          float: left;
+
+          img {
+              height: 55%;
+              display: block;
+              width: 100%;
+              margin: 8px auto;
+              float: left;
+              max-width: 80px;
+
+          }
+      }
+
+      &-sign-out {
+          background: #00A5E6;
+          color: #fff;
+          padding: 18px;
+          float: right;
+          font-family: sans-serif;
+          text-decoration: none;
+          font-weight: bold;
+          height: 100%;
+
+          &:hover {
+              text-decoration: underline;
+          }
+      }
+
+  }
+
+}
+
+
+@media (max-width: $breakpoint-standardMobile) and (orientation : landscape) {
+
+  // .sidenav-wrap-theorem{
+  //   float: left;
+  // }
+
+  .navbar {
+      // color: #fff;
+      // width: 100%;
+      // overflow: hidden;
+      // height: 50px;
+
+      &-theorem {
+          // float: left;
+          width: 20%;
+
+
+
+          img {
+              height: 90%;
+              width: 100%;
+              display: block;
+              margin: 0px auto;
+              float: left;
+              max-width: 250px;
+
+          }
+      }
+
+      &-spacer {
+          width: 0.5%;
+          margin-right: 1.7%;
+          font-size: 41px;
+
+      }
+
+      &-aflac {
+          width: 22%;
+          float: left;
+
+          img {
+              height: 55%;
+              display: block;
+              width: 58%;
+              margin-top: 8px;
+              margin-left: 0px;
+
+
+          }
+      }
+
+      &-sign-out {
+          background: #00A5E6;
+          color: #fff;
+          padding: 18px;
+          float: right;
+          font-family: sans-serif;
+          text-decoration: none;
+          font-weight: bold;
+          height: 100%;
+
+          &:hover {
+              text-decoration: underline;
+          }
+      }
+
+  }
+
+}
+
+//will need other media queries for landscape orientation

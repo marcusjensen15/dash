@@ -1,0 +1,39 @@
+.reports {
+    display: flex;
+    flex-wrap: wrap;
+
+    .card {
+        flex: 0 50%;
+    
+        &-details {
+            font-family: 'Montserrat', sans-serif;
+            overflow: hidden;
+            transition: all .2s ease-in-out;
+            padding: 15px;
+            background: #00A5E6;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 170px;
+            margin: 10px;
+
+            &:hover{
+                box-shadow: 0 5px 10px #0068A7; 
+                transform: scale(1.05);
+            }
+    
+            &-icon {
+                height: 50px;
+                margin: 0px auto;
+            }
+        
+            &-title{
+                font-size: 24px;
+                text-align: center; 
+                color: #fff;
+            }
+        }
+    
+        
+    }
+}
