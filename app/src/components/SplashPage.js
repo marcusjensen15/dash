@@ -69,7 +69,7 @@ function SplashPage({ activeView, setActiveView, pageViewArray, reportArray }) {
       setActiveView={setActiveView}
     />
     cardJSX =
-    <div>
+    <div className="businessReports">
       <h1 id="businessReportHead">Business Reports</h1>
       <div className="reports">
         <Card
@@ -88,7 +88,7 @@ function SplashPage({ activeView, setActiveView, pageViewArray, reportArray }) {
           setActiveView={setActiveView}
         />
       </div>
-      
+
       <h1 id="aBTestHeader">A/B Test Reports</h1>
 
       <div className="reports">
@@ -131,7 +131,7 @@ function SplashPage({ activeView, setActiveView, pageViewArray, reportArray }) {
             setActiveView={setActiveView}
           />
 
-          
+
 
       </div>
 

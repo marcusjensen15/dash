@@ -2,9 +2,10 @@
     display: flex;
     flex-wrap: wrap;
 
+
     .card {
-        flex: 0 50%;
-    
+        flex: 1 50%;
+
         &-details {
             font-family: 'Montserrat', sans-serif;
             overflow: hidden;
@@ -18,22 +19,70 @@
             margin: 10px;
 
             &:hover{
-                box-shadow: 0 5px 10px #0068A7; 
+                box-shadow: 0 5px 10px #0068A7;
                 transform: scale(1.05);
             }
-    
+
             &-icon {
                 height: 50px;
                 margin: 0px auto;
             }
-        
+
             &-title{
                 font-size: 24px;
-                text-align: center; 
+
+                text-align: center;
                 color: #fff;
             }
         }
-    
-        
+
+
     }
+}
+
+.businessReports{
+  margin: 0px;
+  padding: 0px
+}
+
+@media (max-width:1100px){
+  .reports {
+      display: flex;
+      flex-wrap: wrap;
+
+      .card {
+          flex: 1 50%;
+
+          &-details {
+
+              // max-width: 110px;
+              //max-width will be media query exception
+
+
+
+
+              &-title{
+                  font-size: 16px;
+                  text-align: center;
+
+              }
+          }
+
+
+      }
+  }
+
+  #aBTestHeader{
+    text-align: center;
+  }
+
+  #businessReportHead{
+    text-align: center;
+  }
+
+
+
+
+
+
 }
