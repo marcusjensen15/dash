@@ -2,7 +2,20 @@
 
 ## Note on this branch:
 
-I'm unable to get the buttons for the various A/B Test Reports perfectly centered in SplashPage.js. The two columns appear to just be a couple pixels off to the left. I'm not sure why this is happening. 
+App is now properly scaling across all devices. See branch: mobile-views2+modualize. Below are some notes:
+
+TL/DR - Everything looks good across all devices on Firefox & Chrome. Safari has some issues (See below)
+
+-App looks good across all devices on both chrome and Firefox. On Safari, I ran into two problems:
+
+1. Theorem logo is not showing up in Safari for some reason.
+2. Chart JS for whatever reason does not work in Safari.
+
+I didn't spend a ton of time troubleshooting these issues. Perhaps Safari is not comparable with SCSS, or there are some additional NPM packages that need to be installed in order to get Chart JS to work on Safari.
+
+-I took things a step further and removed all of the inline styles the previous interns left. There is still plenty of room for cleanup as the previous classes were not defined using scss best practice. The good thing is all CSS is now living in a stylesheet and not inline.
+
+This task is 99% done, just having those issues with Safari. I'm not familiar with working on browsers outside of Chrome.
 
 ## Available Scripts
 
