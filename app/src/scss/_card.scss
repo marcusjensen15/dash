@@ -84,3 +84,31 @@
   }
 
 }
+
+
+@media (max-width:1100px) and (orientation: landscape){
+
+
+  .reports {
+      display: flex;
+      flex-wrap: wrap;
+      margin:0px;
+      padding: 0px;
+
+      .card {
+          flex: 3 33%;
+
+          &-details {
+              &-title{
+                  font-size: 16px;
+                  text-align: center;
+              }
+          }
+      }
+  }
+
+
+
+
+
+}
