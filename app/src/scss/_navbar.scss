@@ -1,7 +1,6 @@
 $breakpoint-standardMobile: 1100px;
 
-
-//spacing when turning the phone landscape mode is a bit messed up (with the spacer and the Aflac picture)
+//chose 1100px because it encompases all mobile devices, and tablets up to iPad size in portrat and landscape mode.
 
 body {
     margin: 0px;
@@ -67,7 +66,7 @@ body {
 
 }
 
-// normal sized mobile devices
+
 
 @media (max-width: $breakpoint-standardMobile) and (orientation : portrait) {
 
@@ -90,8 +89,6 @@ body {
           max-width: 150px;
           float: left;
 
-
-
           img {
               height: 90%;
               width: 100%;
@@ -99,7 +96,6 @@ body {
               margin: 0px auto;
               float: left;
               max-width: 150px;
-
           }
       }
 
@@ -159,25 +155,15 @@ body {
 
 @media (max-width: $breakpoint-standardMobile) and (orientation : landscape) {
 
-  // .sidenav-wrap-theorem{
-  //   float: left;
-  // }
-
   .navbar {
-      // color: #fff;
       width: 100%;
-      // overflow: hidden;
       height: 60px;
-      // display:none;
       margin: 0px;
 
       &-theorem {
           float: left;
           width: 35%;
           height: 70px;
-
-
-
 
           img {
               height: 90%;
@@ -188,7 +174,6 @@ body {
               margin: 0px;
               float: left;
               max-width: 250px;
-
           }
       }
 
@@ -197,7 +182,6 @@ body {
           margin-right: 2.8%;
           margin-top: 0.4%;
           font-size: 50px;
-
       }
 
       &-aflac {
@@ -205,16 +189,12 @@ body {
           float: left;
           height: 70px;
 
-
-
           img {
               height: 55%;
               display: block;
               width: 58%;
               margin-top: 11px;
               margin-left: 0px;
-
-
           }
       }
 
@@ -232,9 +212,6 @@ body {
               text-decoration: underline;
           }
       }
-
   }
 
 }
-
-//will need other media queries for landscape orientation
