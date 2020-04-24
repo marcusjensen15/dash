@@ -1,4 +1,5 @@
 $breakpoint-standardMobile: 1100px;
+// $breakpoint-largeLaptop: 1500px;
 
 //chose 1100px because it encompases all mobile devices, and tablets up to iPad size in portrat and landscape mode.
 
@@ -20,7 +21,7 @@ body {
 
     &-theorem {
         height: 100px;
-        width: 15vw;
+        width: 35%;
         float: left;
 
         img {
@@ -40,7 +41,7 @@ body {
     &-aflac {
         height: 100px;
 
-        width: 12vw;
+        width: 28%;
         float: left;
 
         img {
@@ -216,3 +217,12 @@ body {
   }
 
 }
+
+// @media (min-width: $breakpoint-standardMobile) and (max-width: $breakpoint-largeLaptop){
+//
+// .navbar
+//   &-theorem{
+//     width: 25vw;
+//   }
+//
+// }
