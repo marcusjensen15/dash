@@ -2,10 +2,12 @@
     visibility: hidden;
   }
 
+
+
   .frameDiv{
     justify-content: center;
     align-items: center;
-    width: 85vw;
+    width: 70%;
     background: #ccc;
     overflow: scroll;
     font-family: sans-serif;
@@ -123,7 +125,7 @@
     }
 
     .VWO .line-chart{
-      margin-top: 10px;
+      // margin-top: 10px;
       margin-bottom: 10px;
       float: left;
     }
