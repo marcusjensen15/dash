@@ -6,10 +6,10 @@ App is now properly scaling across all devices. See branch: mobile-views2+modual
 
 TL/DR - Everything looks good across all devices on Firefox & Chrome. Safari has some issues (See below)
 
--App looks good across all devices on both chrome and Firefox. On Safari, I ran into two problems:
+-App looks good across all devices on both chrome and Firefox. On Safari, I ran into one problem:
 
 1. Theorem logo is not showing up in Safari for some reason.
-2. Chart JS for whatever reason does not work in Safari.
+
 
 I didn't spend a ton of time troubleshooting these issues. Perhaps Safari is not comparable with SCSS, or there are some additional NPM packages that need to be installed in order to get Chart JS to work on Safari.
 
